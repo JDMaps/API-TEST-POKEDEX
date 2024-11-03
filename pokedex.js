@@ -1,4 +1,4 @@
-fetch("https://hpplussport.com/api/products")
+fetch("https://db.ygoprodeck.com/api/v7/cardinfo.php")
     .then(function(response)
     {
 return response.json();
